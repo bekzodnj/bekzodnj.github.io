@@ -8,7 +8,7 @@ function Hero() {
         Bekzod Norkuziev - Front-end & JavaScript
         <br /> developer, currently based in Hungary.
       </h1>
-      <p className='measure lh-copy athelas'>
+      <p className='measure lh-copy'>
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
         voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet

@@ -1,3 +1,8 @@
+body {
+  background-color: rgb(26, 27, 37);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
 .letter-space {
   line-height: 46px;
   letter-spacing: 0.14px;
