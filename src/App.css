@@ -1,14 +1,10 @@
 body {
   background-color: rgb(26, 27, 37);
-  color: white;
-  font-family: 'Montserrat', sans-serif;
+  color: rgb(250, 250, 250);
+  font-family: 'Ubuntu Mono', monospace;
 }
 .letter-space {
   line-height: 46px;
   letter-spacing: 0.14px;
   margin-bottom: 16px;
-}
-
-.font-m {
-  font-family: 'Montserrat', sans-serif;
 }

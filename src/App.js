@@ -8,10 +8,13 @@ import Hero from './components/Hero';
 
 function App() {
   return (
-    <div className='container'>
+    <>
       <Navbar />
-      <Hero />
-    </div>
+
+      <div className='container'>
+        <Hero />
+      </div>
+    </>
   );
 }
 
