@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+::-moz-selection {
+  background: rgb(240, 38, 115);
+}
+::selection {
+  background: rgb(0, 250, 208);
+  color: black;
+}
 body {
   background-color: rgb(26, 27, 37);
   color: rgb(250, 250, 250);

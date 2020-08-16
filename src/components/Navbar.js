@@ -1,20 +1,22 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 function App() {
   return (
     <div className='pv3 f3 bb b--white-60'>
       <div className='d-flex justify-content-between'>
-        <a href='#' className='link white dim'>
+        <Link to='/' className='link white dim'>
           HOME
-        </a>
+        </Link>
 
         <div>
-          <a href='#' className='link white dim mr4'>
+          <Link to='/about' className='link white dim mr3 mr4-ns'>
             ABOUT
-          </a>
-          <a href='#' className='link white dim'>
+          </Link>
+          <Link to='/projects' className='link white dim'>
             PROJECTS
-          </a>
+          </Link>
         </div>
       </div>
     </div>
