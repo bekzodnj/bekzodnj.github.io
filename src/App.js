@@ -9,7 +9,9 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
+
 import About from './pages/About';
+import Projects from './pages/Projects';
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
             <Route exact path='/' component={Hero} />
             <Route exact path='/' component={Experience} />
             <Route exact path='/about' component={About} />
+            <Route exact path='/projects' component={Projects} />
           </Switch>
           <Contact />
         </div>
