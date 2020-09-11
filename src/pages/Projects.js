@@ -6,7 +6,14 @@ function Projects() {
       <h1 className='f3 f2-ns' style={{ fontWeight: 400 }}>
         Projects
       </h1>
-      <p className='f6 f4-ns lh-copy measure  mw7'>Projects are coming soon</p>
+      <p className='f6 f4-ns lh-copy measure  mw7'>
+        I'll try to upload the projects soon
+      </p>
+      <img
+        src='https://wowjs.uk/img/wow-12.gif'
+        className='br-100 h4 w4 dib ba b--black-05 pa2'
+        alt='Photo of a meme dog'
+      ></img>
     </div>
   );
 }

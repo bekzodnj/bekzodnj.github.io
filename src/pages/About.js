@@ -8,8 +8,9 @@ function About() {
         About Me
       </h1>
       <p className='f6 f4-ns lh-copy measure  mw7'>
-        My name is Bekzodjon and I'm a Frontend Developer Intern at Ericsson. I
-        mostly work with JavaScript, React, CSS, Express.js.
+        My name is Bekzodjon and I'm a Computer Engineering master's student at
+        BME based in Budapest. Also, currently I'm working as a a frontend
+        developer intern at Ericsson.
       </p>
     </div>
   );
