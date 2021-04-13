@@ -24,3 +24,19 @@ body {
 .line-h-1 {
   line-height: 1;
 }
+
+.project-header {
+  font-size: 5rem;
+  color: #fcedd8;
+  text-shadow: 5px 5px 0px #ee4930, 10px 10px 0px #e99e35, 15px 15px 0px #4cbda3,
+    20px 20px 0px #048484, 25px 25px 0px #073447;
+  transition: text-shadow ease-in 0.3s;
+}
+
+.project-header:hover {
+  text-shadow: none;
+  transition: text-shadow ease-out 0.3s;
+}
+.email-btn:hover {
+  cursor: pointer;
+}
