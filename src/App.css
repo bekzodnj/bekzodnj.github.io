@@ -40,3 +40,7 @@ body {
 .email-btn:hover {
   cursor: pointer;
 }
+
+.email-btn:hover .tooltip-email {
+  color: rgb(182, 224, 98);
+}

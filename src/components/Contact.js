@@ -11,7 +11,7 @@ function Contact() {
   }, []);
 
   return (
-    <div className='pv3 pb6 bb b--white-60 '>
+    <div className='pv4 pb5-ns bb b--white-60 '>
       <h1 className='f2 mb4' style={{ fontWeight: 400 }}>
         CONTACT
       </h1>
@@ -24,7 +24,11 @@ function Contact() {
             setEmailClicked(true);
           }}
         >
-          {isEmailClicked ? 'Copied to clipboard ' : 'Click here to copy: '}{' '}
+          {isEmailClicked ? (
+            <span className='tooltip-email'>Copied to clipboard: </span>
+          ) : (
+            <span className='tooltip-email'>Click here to copy: </span>
+          )}{' '}
           bekzodnx@gmail.com
         </a>
         <a
