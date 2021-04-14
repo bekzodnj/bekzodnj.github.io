@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 function App() {
   return (
     <div className='pv3 f3 bb b--white-60'>
-      <div className='d-flex justify-content-between'>
-        <Link to='/' className='link white dim'>
+      <div className='d-flex justify-between justify-center-ns'>
+        <Link to='/' className='link white dim mr3 mr4-ns'>
           HOME
         </Link>
 
