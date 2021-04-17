@@ -12,8 +12,8 @@ function Contact() {
 
   return (
     <div className='pv4 pb5-ns bb b--white-60 '>
-      <h1 className='f2 mb4' style={{ fontWeight: 400 }}>
-        CONTACT
+      <h1 className='f3 f2-ns mb4' style={{ fontWeight: 400 }}>
+        Contact
       </h1>
 
       <div>
