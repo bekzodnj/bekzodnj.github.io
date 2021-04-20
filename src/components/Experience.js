@@ -1,6 +1,7 @@
 import React from 'react';
 import './../App.css';
 
+// Experience component
 function Experience() {
   return (
     <div className='pv4 pv5-ns bb b--white-60'>

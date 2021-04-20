@@ -2,11 +2,12 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import './../App.css';
 
+// Contact component
+// reued in each page
 function Contact() {
   const [isEmailClicked, setEmailClicked] = useState(false);
 
   useEffect(() => {
-    // Update the document title using the browser API
     setEmailClicked(false);
   }, []);
 

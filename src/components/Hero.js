@@ -12,8 +12,8 @@ function Hero() {
           <br /> developer, currently based in Hungary.
         </h1>
         <p className='f6 f4-ns lh-copy measure '>
-          Currently working as a Developer Intern at Ericsson. Also, master's
-          student at BME. I mostly work with JavaScript, React, Express.js.
+          Currently working as a Developer Intern at Ericsson. Also, a candidate
+          for MSc at BME. I mostly work with JavaScript, React, and Express.js.
         </p>
       </div>
 
