@@ -15,6 +15,7 @@ function Experience() {
             className='link white dim underline underline-hover'
             href='https://www.ericsson.com/en'
             target='_blank'
+            rel='noopener noreferrer'
           >
             Ericsson
           </a>
@@ -30,6 +31,7 @@ function Experience() {
             className='link white dim underline underline-hover'
             href='https://corporate.exxonmobil.com/'
             target='_blank'
+            rel='noopener noreferrer'
           >
             ExxonMobil
           </a>

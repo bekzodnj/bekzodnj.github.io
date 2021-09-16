@@ -18,31 +18,40 @@ function Contact() {
       </h1>
 
       <div>
-        <a
-          className='f6 dim ba bw1 ph3 pv2 mb2 dib white mr2 email-btn'
+        <button
+          style={{ background: 'transparent', color: 'white' }}
+          className='f6 link dim ba bw1 ph4 pv2 mb2 dib white mr2'
           onClick={() => {
             navigator.clipboard.writeText('bekzodnx@gmail.com');
             setEmailClicked(true);
           }}
         >
           {isEmailClicked ? (
-            <span className='tooltip-email'>Copied to clipboard: </span>
+            <span className='tooltip-email'>
+              Copied to clipboard{' '}
+              <span role='img' aria-label='done emoji'>
+                &#9989;
+              </span>
+              :
+            </span>
           ) : (
-            <span className='tooltip-email'>Click here to copy: </span>
+            <span className='tooltip-email'>Click to copy email: </span>
           )}{' '}
           bekzodnx@gmail.com
-        </a>
+        </button>
         <a
-          className='f6 link dim ba bw1 ph3 pv2 mb2 dib white mr2'
+          className='f6 link dim ba bw1 ph4 pv2 mb2 dib white mr2'
           href='https://github.com/bekzodnj'
           target='_blank'
+          rel='noopener noreferrer'
         >
           GitHub &#x2197;
         </a>
         <a
           className='f6 link dim ba bw1 ph3 pv2 mb2 dib white mr2'
-          href='https://twitter.com/istbek'
+          href='https://twitter.com/bekzodnj'
           target='_blank'
+          rel='noopener noreferrer'
         >
           Twitter &#x2197;
         </a>
@@ -50,6 +59,7 @@ function Contact() {
           className='f6 link dim ba bw1 ph3 pv2 mb2 dib white'
           href='https://www.linkedin.com/in/bekzodjon/'
           target='_blank'
+          rel='noopener noreferrer'
         >
           LinkedIn &#x2197;
         </a>

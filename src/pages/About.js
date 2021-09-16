@@ -8,9 +8,17 @@ function About() {
         About Me
       </h1>
       <p className='f6 f4-ns lh-copy measure  mw7'>
-        My name is Bekzodjon and I'm a Computer Engineering master's student at
-        BME based in Budapest. Currently I'm working as a developer intern at
-        Ericsson.
+        Hello, I'm Bekzod, frontend developer. I studied at{' '}
+        <a
+          className='link white dim underline underline-hover'
+          href='https://www.bme.hu/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          BME
+        </a>{' '}
+        majoring in Computer Engineering. Currently I'm working as a Developer
+        at Ericsson.
       </p>
     </div>
   );

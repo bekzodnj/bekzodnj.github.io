@@ -6,7 +6,12 @@ function Projects() {
       <h1 className='f3 f2-ns project-header' style={{ fontWeight: 400 }}>
         Projects
       </h1>
-      <p className='f6 f4-ns lh-copy measure  mw7'>Coming soon... &#128640;</p>
+      <p className='f6 f4-ns lh-copy measure mw7'>
+        Incoming...{' '}
+        <span role='img' aria-label='done emoji'>
+          &#128640;
+        </span>{' '}
+      </p>
     </div>
   );
 }
