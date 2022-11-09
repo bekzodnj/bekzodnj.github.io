@@ -1,6 +1,5 @@
 import React from 'react';
 import 'tachyons';
-import 'bootstrap-4-grid';
 import './App.css';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';

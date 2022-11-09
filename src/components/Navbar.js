@@ -10,14 +10,12 @@ function App() {
           HOME
         </Link>
 
-        <div>
-          <Link to='/about' className='link white dim mr3 mr4-ns'>
-            ABOUT
-          </Link>
-          <Link to='/projects' className='link white dim'>
-            PROJECTS
-          </Link>
-        </div>
+        <Link to='/about' className='link white dim mr3 mr4-ns'>
+          ABOUT
+        </Link>
+        <Link to='/projects' className='link white dim'>
+          PROJECTS
+        </Link>
       </div>
     </div>
   );
